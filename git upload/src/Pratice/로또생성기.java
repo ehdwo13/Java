@@ -7,14 +7,12 @@ public class 로또생성기 {
 		 * */
 		int com[] = new int[7];		//당첨번호
 		int user[] = new int[6];	//사용자 로또 번호
-		
 		lotto(com);
 		printArray(com);
 		lotto(user);
 		printArray(user);
 		checkLotto(com, user);
 	}
-	
 	/*	배열을 매개변수로 받아 1~45까지 랜덤수를 채워서 생성.
 	 * 	같은 수 나오면 안됨
 	 * */
@@ -99,7 +97,5 @@ public class 로또생성기 {
 		default :
 			System.out.println("꽝입니다.");
 		}
-	
 	}
-	
 }
