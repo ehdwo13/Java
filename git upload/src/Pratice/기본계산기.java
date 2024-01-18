@@ -12,8 +12,6 @@ public class 기본계산기{
 			 * 다른 종류의 연산자가 들어오면 잘못된 연산자로 출력
 			 * */
 			
-			//연산자 = char(기본자료형) == 비교가능 / String(객체) == 비교불가능
-			
 			Scanner sc = new Scanner(System.in);
 				
 			System.out.print("첫번째 정수를 입력해주세요 : ");
